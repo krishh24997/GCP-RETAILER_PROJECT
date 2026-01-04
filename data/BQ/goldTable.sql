@@ -1,6 +1,7 @@
 --1️. Sales Summary (sales_summary)
 CREATE TABLE IF NOT EXISTS `myfirstproject-09-12-2025.gold_dataset.sales_summary`
 AS
+
 SELECT 
     o.order_date,
     p.category_id,
