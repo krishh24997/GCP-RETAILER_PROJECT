@@ -102,5 +102,5 @@ CREATE OR REPLACE EXTERNAL TABLE `myfirstproject-09-12-2025.bronze_dataset.custo
 )
 OPTIONS (
   format = 'PARQUET',
-  uris = ['gs://datalake-project-bkt-03012026/landing/landing/customer_reviews/customer_reviews_*.parquet']
+  uris = ['gs://datalake-project-bkt-03012026/landing/customer_reviews/customer_reviews_*.parquet']
 );
